@@ -2,6 +2,8 @@
 
 # Requires cwwav in PATH; https://github.com/Kerrick/cwwav/archive/master.tar.gz
 
+srand(time());
+
 my $t = `mktemp`;
 chomp($t);
 

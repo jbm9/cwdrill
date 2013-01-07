@@ -1,9 +1,30 @@
-.skel
-=====
+cwdrill
+=======
 
-This is a skeleton project.  It needs better documentation.
+A really, really basic Morse code/CW trainer for the Linux CLI.
 
-Contents:
+Released into the public domain, because it's so simple, it's
+borderline not-actually-copyrightable.
 
-web/ -- An empty website for this thing
-code/ -- An empty directory for code for this thing
+It's intended to be run on a large terminal, while you do something
+from the other side of the room.  It doesn't do anything but play
+morse code and then print the letter on the terminal window.
+
+There may be a nearly-useless demo video up at 
+  http://www.youtube.com/watch?v=e3G8MiEa0GY
+
+The program is in code/; go in there and run 
+
+  cwdrill_cli.pl
+
+You'll need to have cwwav installed (see
+https://github.com/Kerrick/cwwav/) as well as banner(1) (on Ubuntu and
+probably Debian, try 'sudo apt-get install sysvbanner').
+
+I'm pretty sure I just spent longer writing this readme than I did on
+writing the program.
+
+Good luck.  If it's broken on your system, you may keep all the
+pieces.
+
+-jbm
